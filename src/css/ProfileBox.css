@@ -1,0 +1,17 @@
+.profile-box {
+    border: 2px solid #222222;
+    position: fixed;
+    top: 62px;
+    right: 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-list {
+    /* border: 1px solid blue; */
+    margin: 2px;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 5px;
+    width: 70px;
+}

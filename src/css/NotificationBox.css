@@ -1,0 +1,37 @@
+.notification-box {
+    border: 2px solid black;
+    position: fixed;
+    width: 200px;
+    /* max-height: 100px; */
+    top: 62px;
+    right: 50px;
+    
+}
+
+.notification-row {
+    display: flex;
+    
+}
+
+.notification-dot {
+    /* border: 1px solid blue; */
+    background-color: grey;
+    border-radius: 50%;
+    height: 6px;
+    width: 6px;
+    margin: 5px 7px;
+}
+
+.notification-row {
+    /* border: 1px solid red; */
+    margin: 5px;
+    
+}
+
+.notification-text {
+    /* border: 1px solid black; */
+    font-size: 12px;
+    width: 170px;
+    min-height: 20px;
+    font-weight: 500;
+}

@@ -1,0 +1,37 @@
+.search-box {
+    border: 2px solid #222222;
+    position: fixed;
+    width: 220px;
+    top: 62px;
+    right: 115px;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-row {
+    /* border: 1px solid red; */
+    display: flex;
+    margin: 5px;
+}
+
+.search-photo {
+    /* border: 1px solid green; */
+    width: 20px;
+    height: 20px;
+    
+}
+
+.search-photo img {
+    height: 100%;
+    border-radius: 50%;
+}
+
+.search-name {
+    /* border: 1px solid blue; */
+    margin-left: 10px;
+    width: 180px;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
